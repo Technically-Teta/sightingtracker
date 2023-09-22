@@ -47,7 +47,7 @@ props.onSubmit(allAppInfo)
 //line of code is used to specify the function that should be called when the form is submitted.
     return (
       <form onSubmit={handleSubmit}>
-      <h3>Enter Species Info Here</h3>
+      <h3>Enter Species Info Here:</h3>
       <input type="text" placeholder="Common Name" ref={specCommonName} />
       <input type="text" required placeholder="Scientific Name" ref={specSciName } />
       <input type="text" placeholder="Number Living in Wild" ref={specInWild} />
