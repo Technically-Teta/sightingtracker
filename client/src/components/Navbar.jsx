@@ -10,19 +10,13 @@ function MyNavBar(props) {
     <>
     <Navbar bg="dark" variant="dark" sticky="top">
       <Container>
-        <Navbar.Brand href="/">
-        <img
-              src={Logo}
-              height="30"
-              className="d-lg-inline-block"
-              alt="React Bootstrap logo"
-            />
-        </Navbar.Brand>
-        <Nav.Link >Your Link</Nav.Link>
+        
+       
+        <Nav.Link >Sight Tracker App</Nav.Link>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Signed in as: <a href="#login">Cristina Rodriguez</a>
+          
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
