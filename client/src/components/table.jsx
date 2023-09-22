@@ -1,7 +1,5 @@
 
 
-
-
 const sampledata = [
 { Id: 6, Date: '3/5/15,', Individual: 'Bangled Cobra' , Healthy: true, Email: 'Dr.Parl@gmail.com'},
 { Id: 7, Date: '1/5/20,', Individual: 'Striped RoadRunner' , Healthy: true, Email: 'Tracy8l@gmail.com'},
@@ -11,3 +9,34 @@ const sampledata = [
 
 ]
  
+function Tablebox(){
+    return (
+        <div className="Table-Class">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                </tr>
+                {data.map((val, key) => {
+                    return (
+                        <tr key={key}>
+                            <td>{val.name}</td>
+                            <td>{val.age}</td>
+                            <td>{val.gender}</td>
+                        </tr>
+                    )
+                })}
+            </table>
+        </div>
+    );
+}
+ 
+export default Tablebox;
+
+
+
+
+
+
+}
