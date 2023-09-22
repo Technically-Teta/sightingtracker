@@ -70,6 +70,7 @@ question right away.
 
 
 ## Breaking News!
+
 <img width="1015" alt="Screenshot 2023-09-22 at 1 30 59 AM" src="https://github.com/Technically-Teta/sightingtracker/assets/52463043/7f8bb89d-45a8-483f-b540-5c1cff834f39">
 
 
