@@ -21,6 +21,38 @@ We’re dedicated to conserving polar bears and the sea ice they depend on. Thro
 
 ### Learn about the Development Process of our app
 
+Our App was created to meet the needs of the hard-working scientists who do research on our planet's most precious endangered species. 
+With that in mind we drafted multiple phases of this app to meet their needs:
+
+*For PHASE 1 we wanted to address their basic needs with just creating space for quick data to be inputted. 
+
+<img width="920" alt="Screenshot 2023-09-22 at 11 16 13 AM" src="https://github.com/Technically-Teta/sightingtracker/assets/52463043/56dc88e4-0b40-4b75-b06c-66b040f271c1">
+
+
+
+
+
+
+
+
+
+
+
+
+*For PHASE 2 we responded to the initial feedback from scientists who wanted more ability to see current information about the animal in
+question right away.
+
+<img width="930" alt="Screenshot 2023-09-22 at 11 27 12 AM" src="https://github.com/Technically-Teta/sightingtracker/assets/52463043/b487a6d4-ad13-4691-9cc9-3589fc5cd77b">
+
+
+*For our third and final phase we took all of the requests of the scientists and created a seamless clean rollout that utilizes our advanced psql commands to generate specific data in our newly created search bar area. Users were please with the results. 
+
+<img width="886" alt="Screenshot 2023-09-22 at 11 30 06 AM" src="https://github.com/Technically-Teta/sightingtracker/assets/52463043/1247aecc-14d8-4d5b-a15e-2cdf875318d9">
+
+
+
+
+
 Please carefull
 1. Go to your source directory in your terminal and run the command `git clone https://github.com/Yosolita1978/Template2023React-Vite.git NAMENEWDIRECTORY`
 
