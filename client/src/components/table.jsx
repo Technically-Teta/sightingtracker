@@ -14,16 +14,23 @@ function Tablebox(){
         <div className="Table-Class">
             <table>
                 <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>Gender</th>
+                    <th>Id</th>
+                    <th>Date</th>
+                    <th>Individual</th>
+                    <th>Healthy?</th>
+                    <th>Email Address</th>
+                    
+
                 </tr>
-                {data.map((val, key) => {
+                {sampledata.map((val, key) => {
                     return (
                         <tr key={key}>
-                            <td>{val.name}</td>
-                            <td>{val.age}</td>
-                            <td>{val.gender}</td>
+                            <td>{val.Id}</td>
+                            <td>{val.Date}</td>
+                            <td>{val.Individual}</td>
+                            <td>{val.Healthy}</td>
+                            <td>{val.Email}</td>
+                      
                         </tr>
                     )
                 })}
@@ -39,4 +46,3 @@ export default Tablebox;
 
 
 
-}
