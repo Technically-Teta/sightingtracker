@@ -1,26 +1,31 @@
-import React, { useState, useEffect } from 'react'
-import { Button, Form } from "react-bootstrap"
+import React, { useRef } from "react";
 
-const MyForm = () => {
+const MyForm = (props) => {
+// use ref initialization --- species 
+const specCommonName = useRef();
+const specSciName = useRef();
+const specInWild = useRef();
+const specConStatus = useRef();
 
-    // This is the original State with not initial student 
-    const [sightings, setSightings] = useState([])
+// use ref initialization --- Individuals   
+const indivNickName = useRef();
+const indivSpecies = useRef();
 
 
-    const getSighting = () => {
-      fetch("http://localhost:2023/api/sightings")
-      .then((response) => response.json())
-      .then(sightings => {
-        setSightings(sightings); 
-        console.log('Sighting fetched...', sightings);
-        });
-    }
 
-    useEffect(() => {getSighting()}, []);
+// use ref initialization --- Sightings
 
 
 
 
+//new function called handleSubmit that takes an event object as a parameter.
+ 
+
+
+/*
+new object called allUserInfo that contains the values
+ of all of the form fields. The current?.value syntax is used to access the value of the form field, but only if the field is not null or undefined.
+*/
     return (
 
        <div>{sightings.length >0 ? 
