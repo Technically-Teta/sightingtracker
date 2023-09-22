@@ -1,7 +1,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyNavBar from './components/Navbar'
-import MyForm from './components/Form';
+import MyGet from './components/Get';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <MyNavBar />
       
-      <MyForm/>
+      <MyGet/>
 
     </div>
   )

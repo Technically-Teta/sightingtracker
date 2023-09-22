@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { Button, Form } from "react-bootstrap"
 
-const MyForm = () => {
+
+const MyGet = () => {
 
     // This is the original State with not initial student 
     const [sightings, setSightings] = useState([])
@@ -30,7 +30,7 @@ const MyForm = () => {
 };
 
 
-export default MyForm
+export default MyGet
 
 
  
