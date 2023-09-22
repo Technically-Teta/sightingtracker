@@ -1,4 +1,4 @@
-# Your First Express and React App with Vite
+# Sterling City Scientific Animal Sight Tracker App
  ⚡ Create a working full stack app with React and Express in minutes by running your client using Vite, your server using Express, and dumping your db in the template ⚡
 
 ## Step by Step instructions - To use this project as your start point  🚀  
