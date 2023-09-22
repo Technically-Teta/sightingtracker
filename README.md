@@ -1,17 +1,31 @@
 # Sterling City Scientific Animal Sight Tracker App
- ⚡ Create a working full stack app with React and Express in minutes by running your client using Vite, your server using Express, and dumping your db in the template ⚡
+ ⚡ learn how to use the Sterling City Animal Sight Tracker App and learn more about our mission. ⚡
 
-## Step by Step instructions - To use this project as your start point  🚀  
-### To create the whole project
+## Step by Step instructions  
+### Instructions and download for scientific study.
+
+![Green   White Torn Cactus YouTube Channel Art](https://github.com/Technically-Teta/sightingtracker/assets/52463043/07c174d1-a387-4581-8aeb-c59f555e7877)
 
 
+In 2020, CNN showed a heart-breaking video of a very scary thing, a polar bear searching garbage bins in Iceland for food. Their dire plight and the plight of other endangered animals is one of the many reasons We at Sterling City decided to create our App.
+We want to make a difference.
+We’re dedicated to conserving polar bears and the sea ice they depend on. Through media, science, and advocacy, we work to inspire people to care about the Arctic, the threats to its future, and the connection between this remote region and our global climate.
+
+* Although our app was created for Zoologists and Scientists anyone dedicated to the preservation of animals may use the app for a fee.
+
+
+
+
+
+
+
+Please carefull
 1. Go to your source directory in your terminal and run the command `git clone https://github.com/Yosolita1978/Template2023React-Vite.git NAMENEWDIRECTORY`
 
 2. To clean the owner git out of the main directory, run the command `rm -rf .git`
 
 3. Then while still within the main directory in your terminal, run the command `git init` to start your own git track 
 
-![You will something like this in your terminal](https://user-images.githubusercontent.com/102179075/227304861-7ad633d7-5ec0-463a-8554-9e8b4c8caaad.png?raw=true)
 
 4. Go to the server folder in the project (`cd server`) and run the command `npm install`
 
