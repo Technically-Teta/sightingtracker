@@ -15,9 +15,11 @@ We’re dedicated to conserving polar bears and the sea ice they depend on. Thro
 
 
 
+* Add sketches of making the app
+* step by step instructions
+* backend work- our tables in db are connecting through joins and tables 
 
-
-
+### Learn about the Development Process of our app
 
 Please carefull
 1. Go to your source directory in your terminal and run the command `git clone https://github.com/Yosolita1978/Template2023React-Vite.git NAMENEWDIRECTORY`
