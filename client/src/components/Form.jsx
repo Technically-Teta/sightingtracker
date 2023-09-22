@@ -41,15 +41,31 @@ const allAppInfo ={
 };
 // onSubmit() function that was passed to the handleSubmit function as a prop. The allUserInfo object is passed to the onSubmit()
 props.onSubmit(allAppInfo)
- }
+ };
 
 
-
+//line of code is used to specify the function that should be called when the form is submitted.
     return (
+      <form onSubmit={handleSubmit}>
+      <h2>Enter Species Info Here</h2>
+      <label>Common Name:</label>
+      <input type="text" placeholder="Common Name" ref={specCommonName} />
+      <label>Scientific Name*:</label>
+      <input type="text" required placeholder="Scientific Name" ref={specSciName } />
+      <input type="text" placeholder="Number Living in Wild" ref={specInWild} />
+      <input type="text" placeholder="Conservation Status Code" ref={specConStatus} />
 
-       <div>{sightings.length >0 ? 
-              sightings.map((item)=> (<div> <p>{item.nickname}</p> <p>{item.location} </p> </div>)): " " }  </div>
-       
+
+
+
+
+
+
+
+
+
+
+     </form>
     );
 };
 
