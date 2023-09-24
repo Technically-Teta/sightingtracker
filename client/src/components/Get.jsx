@@ -18,13 +18,18 @@ const MyGet = () => {
 
     useEffect(() => {getSighting()}, []);
 
-
+//<div>{sightings.length >0 ? 
+       
+//sightings.map((item)=> (<div> <p>{item.nickname}</p> <p>{item.location} </p> </div>)): " " }  </div>
 
 
     return (
 
-       <div>{sightings.length >0 ? 
-              sightings.map((item)=> (<div> <p>{item.nickname}</p> <p>{item.location} </p> </div>)): " " }  </div>
+       <div>
+       
+        <button>Endangered List Updates</button>
+        
+      </div>
        
     );
 };
