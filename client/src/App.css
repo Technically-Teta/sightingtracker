@@ -77,14 +77,14 @@ button.btn.btn-primary {
 }
 
 table {
-  border: 5px dashed forestgreen;
-  width: 700px;
+  border: 5px dashed rgb(198, 224, 30);
+  width: 600px;
   height: 200px;
   margin: 100px
 }
 
 th {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(51, 23, 231);
   margin-bottom: 10px;
   align-items: center;
 
